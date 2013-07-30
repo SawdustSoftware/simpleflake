@@ -6,6 +6,7 @@ with open('README.md') as file:
 setup(
     name='simpleflake',
     author='Mali Akmanalp',
+    description='Twitter snowflake compatible super-simple distributed ID generator.',
     url='https://github.com/malicustommade/simpleflake',
     version='0.1',
     packages=['simpleflake', ],
