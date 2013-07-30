@@ -24,6 +24,7 @@ def pad_bytes_to_64(string):
 
 
 def binary(num, padding=True):
+    """Show binary digits of a number, pads to 64 bits unless specified."""
     binary_digits = "{0:b}".format(int(num))
     if not padding:
         return binary_digits
@@ -31,6 +32,7 @@ def binary(num, padding=True):
 
 
 def extract_bits(data, shift, length):
+    """Extract a portion of a bit string. Similar to substr()."""
     bitmask = ((1 << length) - 1) << shift
     return ((data & bitmask) >> shift)
 
