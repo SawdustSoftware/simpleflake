@@ -8,7 +8,7 @@ setup(
     author='Mali Akmanalp',
     description='Twitter snowflake compatible super-simple distributed ID generator.',
     url='https://github.com/malicustommade/simpleflake',
-    version='0.1',
+    version='0.1.1',
     packages=['simpleflake', ],
     package_dir={'simpleflake': ''},
     license='MIT',
