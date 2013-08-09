@@ -1,9 +1,9 @@
 import random
 from unittest import TestCase
-from simpleflake import SIMPLEFLAKE_EPOCH
-from simpleflake import simpleflake, parse_simpleflake, extract_bits, binary
-from simpleflake import SIMPLEFLAKE_TIMESTAMP_SHIFT, SIMPLEFLAKE_TIMESTAMP_LENGTH
-from simpleflake import SIMPLEFLAKE_RANDOM_SHIFT, SIMPLEFLAKE_RANDOM_LENGTH
+from .simpleflake import SIMPLEFLAKE_EPOCH
+from .simpleflake import simpleflake, parse_simpleflake, extract_bits, binary
+from .simpleflake import SIMPLEFLAKE_TIMESTAMP_SHIFT, SIMPLEFLAKE_TIMESTAMP_LENGTH
+from .simpleflake import SIMPLEFLAKE_RANDOM_SHIFT, SIMPLEFLAKE_RANDOM_LENGTH
 
 
 class SimpleFlakeTest(TestCase):
