@@ -2,7 +2,7 @@
 simpleflake
 ===========
 
-Distributed ID generation in python for the lazy. 
+Distributed ID generation in python for the lazy.
 
 Overview at http://engineering.custommade.com/simpleflake-distributed-id-generation-for-the-lazy
 
