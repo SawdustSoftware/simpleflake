@@ -1,14 +1,14 @@
 from distutils.core import setup
 
-with open('README.md') as file:
+with open('README.txt') as file:
     long_description = file.read()
 
 setup(
     name='simpleflake',
-    author='Mali Akmanalp',
+    author='Mali Akmanalp (Custommade Ventures)',
     description='Twitter snowflake compatible super-simple distributed ID generator.',
-    url='https://github.com/malicustommade/simpleflake',
-    version='0.1.1',
+    url='https://github.com/SawdustSoftware/simpleflake',
+    version='0.1.2',
     packages=['simpleflake', ],
     package_dir={'simpleflake': ''},
     license='MIT',
