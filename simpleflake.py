@@ -43,12 +43,12 @@ def simpleflake(timestamp=None, random_bits=None, epoch=SIMPLEFLAKE_EPOCH):
     """Generate a 64 bit, roughly-ordered, globally-unique ID."""
     second_time = timestamp if timestamp is not None else time.time()
     second_time -= epoch
-    milisecond_time = int(second_time * 1000)
+    millisecond_time = int(second_time * 1000)
 
     randomness = random.SystemRandom().getrandbits(SIMPLEFLAKE_RANDOM_LENGTH)
     randomness = random_bits if random_bits is not None else randomness
 
-    flake = (milisecond_time << SIMPLEFLAKE_TIMESTAMP_SHIFT) + randomness
+    flake = (millisecond_time << SIMPLEFLAKE_TIMESTAMP_SHIFT) + randomness
 
     return flake
 
