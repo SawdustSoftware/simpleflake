@@ -9,7 +9,7 @@ setup(
     author_email='mali+simpleflake@custommade.com',
     description='Twitter snowflake compatible super-simple distributed ID generator.',
     url='https://github.com/SawdustSoftware/simpleflake',
-    version='0.1.4',
+    version='0.1.5',
     packages=['simpleflake', ],
     package_dir={'simpleflake':'simpleflake'},
     license='MIT',
