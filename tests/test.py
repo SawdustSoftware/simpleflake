@@ -1,7 +1,7 @@
 import random
 import unittest
 
-import simpleflake.simpleflake as sf
+import simpleflake as sf
 
 
 class SimpleFlakeTest(unittest.TestCase):
