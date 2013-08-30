@@ -6,11 +6,12 @@ with open('README.rst') as file:
 setup(
     name='simpleflake',
     author='Mali Akmanalp (Custommade Ventures)',
+    author_email='mali+simpleflake@custommade.com',
     description='Twitter snowflake compatible super-simple distributed ID generator.',
     url='https://github.com/SawdustSoftware/simpleflake',
-    version='0.1.3',
+    version='0.1.4',
     packages=['simpleflake', ],
-    package_dir={'simpleflake': ''},
+    package_dir={'simpleflake':'simpleflake'},
     license='MIT',
     long_description=long_description,
     classifiers=[
